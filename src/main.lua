@@ -1,7 +1,9 @@
 local sti = require "modules/sti"
 
 function love.load()
-  map = sti("tiled/test1.lua")
+  map = sti("tiled/test2.lua")
+
+  love.graphics.setBackgroundColor(255,255,255)
 end
 
 function love.update(dt)
@@ -9,8 +11,6 @@ function love.update(dt)
 end
 
 function love.draw()
-  love.graphics.print("Hello World!", 400, 300)
-
-  map:draw()
+  map:drawTileLayer("mainart")
+  map:drawTileLayer("secondaryart")
 end
-
