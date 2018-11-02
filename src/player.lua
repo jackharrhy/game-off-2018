@@ -1,3 +1,5 @@
+require "utils/entity"
+
 local player = {
     spriteFile = "art/player.png"
 }
@@ -34,22 +36,13 @@ function player:update(dt)
 end
 
 function player:draw()
-    love.graphics.draw(
-        self.sprite,
-        math.floor(self.x),
-        math.floor(self.y),
-        0,
-        1,
-        1,
-        self.ox,
-        self.oy
-    )
+    entity.draw(player)
 
     -- FOR DEBUGGING PLAYER LOCATION
     love.graphics.setColor(0,0,0)
     love.graphics.setPointSize(5)
     love.graphics.points(math.floor(self.x), math.floor(self.y))
-    love.graphics.setColor(255,255,255)
+    love.graphics.setColor(1,1,1)
 end
 
 return player

@@ -1,6 +1,6 @@
-sprites = {}
+entities = {}
 
-function sprites:load(objects)
+function entities:load(objects)
     for k, object in pairs(map.objects) do
         if object.name == "player" then
             self.player = require "player"
@@ -10,12 +10,12 @@ function sprites:load(objects)
     end
 end
 
-function sprites:update(dt)
-    sprites.player:update(dt)
+function entities:update(dt)
+    entities.player:update(dt)
 end
 
-function sprites:draw()
-    sprites.player:draw()
+function entities:draw()
+    entities.player:draw()
 end
 
-return sprites
+return entities
