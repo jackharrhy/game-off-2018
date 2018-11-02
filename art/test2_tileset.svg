@@ -14,9 +14,9 @@
    viewBox="0 0 135.46666 135.46667"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    sodipodi:docname="test2_tileset.svg"
-   inkscape:export-filename="E:\Projects\Programming\game-off-2018\art\test2_tileset.png"
+   inkscape:export-filename="/Users/jackharrhy/GithubGameJam/muck123/src/art/test2_tileset.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -28,17 +28,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1711456"
-     inkscape:cx="283.39707"
-     inkscape:cy="224.514"
+     inkscape:zoom="4.6845824"
+     inkscape:cx="448.05153"
+     inkscape:cy="12.108951"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1280"
+     inkscape:window-height="755"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -55,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -210,5 +210,26 @@
        height="10.583307"
        x="92.074997"
        y="283.24167" />
+    <circle
+       style="fill:#eab629;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path905"
+       cx="127"
+       cy="288.53333"
+       r="6.3499999" />
+    <path
+       style="fill:#ea3b29;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 126.29443,292.76665 h 1.41113 v -5.64444 h 1.4111 l -2.11667,-2.82222 -2.11666,2.82222 h 1.4111 z"
+       id="path909"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect911"
+       width="16.933332"
+       height="16.933332"
+       x="118.53333"
+       y="280.06665"
+       inkscape:export-filename="/Users/jackharrhy/GithubGameJam/muck123/src/art/player.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
 </svg>
