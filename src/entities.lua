@@ -1,6 +1,6 @@
-entities = {}
+local entities = {}
 
-function entities:load(objects)
+function entities:load()
     for k, object in pairs(map.objects) do
         if object.name == "player" then
             self.player = require "player"
