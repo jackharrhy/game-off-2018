@@ -9,7 +9,7 @@ return {
   tilewidth = 64,
   tileheight = 64,
   nextlayerid = 6,
-  nextobjectid = 12,
+  nextobjectid = 14,
   backgroundcolor = { 255, 255, 255 },
   properties = {},
   tilesets = {
@@ -309,6 +309,20 @@ return {
           width = 0,
           height = 0,
           rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 13,
+          name = "sign",
+          type = "",
+          shape = "rectangle",
+          x = 575,
+          y = 69,
+          width = 64,
+          height = 64,
+          rotation = 0,
+          gid = 49,
           visible = true,
           properties = {}
         }
