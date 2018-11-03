@@ -18,7 +18,7 @@ end
 function player:update(dt)
     local speed = 130
     if love.keyboard.isDown("lshift") then
-        speed = speed * 1.5
+        speed = speed * 1.35
     end
 
     local targetX, targetY = self.x, self.y
@@ -39,7 +39,14 @@ function player:update(dt)
         targetX = targetX + speed * dt
     end
 
-    self.x, self.y = world:move(player, targetX, targetY)
+    self.x, self.y = world:move(player, targetX, targetY, self.bumpFilter)
+end
+
+function player:bumpFilter(item, other)
+    if item.properties.collide == false then
+        return "cross"
+    end
+    return "slide"
 end
 
 function player:draw()

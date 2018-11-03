@@ -1,14 +1,13 @@
 return {
-  version = "1.2",
+  version = "1.1",
   luaversion = "5.1",
-  tiledversion = "1.2.0",
+  tiledversion = "1.1.6",
   orientation = "orthogonal",
   renderorder = "right-down",
   width = 50,
   height = 50,
   tilewidth = 64,
   tileheight = 64,
-  nextlayerid = 6,
   nextobjectid = 14,
   backgroundcolor = { 255, 255, 255 },
   properties = {},
@@ -21,7 +20,6 @@ return {
       tileheight = 64,
       spacing = 0,
       margin = 0,
-      columns = 8,
       image = "../art/test2_tileset.png",
       imagewidth = 512,
       imageheight = 512,
@@ -50,7 +48,6 @@ return {
   layers = {
     {
       type = "tilelayer",
-      id = 1,
       name = "mainart",
       x = 0,
       y = 0,
@@ -117,7 +114,6 @@ return {
     },
     {
       type = "tilelayer",
-      id = 2,
       name = "collision",
       x = 0,
       y = 0,
@@ -184,7 +180,6 @@ return {
     },
     {
       type = "tilelayer",
-      id = 3,
       name = "secondaryart",
       x = 0,
       y = 0,
@@ -251,7 +246,6 @@ return {
     },
     {
       type = "objectgroup",
-      id = 4,
       name = "entities",
       visible = true,
       opacity = 1,
@@ -324,7 +318,9 @@ return {
           rotation = 0,
           gid = 49,
           visible = true,
-          properties = {}
+          properties = {
+            ["collide"] = false
+          }
         }
       }
     }
