@@ -14,9 +14,9 @@
    viewBox="0 0 135.46666 135.46667"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="test2_tileset.svg"
-   inkscape:export-filename="/Users/jackharrhy/GithubGameJam/muck123/src/art/test2_tileset.png"
+   inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\player.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -28,17 +28,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.6845824"
-     inkscape:cx="38.196422"
-     inkscape:cy="80.418135"
+     inkscape:zoom="1.65625"
+     inkscape:cx="251.90632"
+     inkscape:cy="192.57038"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
      units="px"
-     inkscape:window-width="1280"
-     inkscape:window-height="755"
-     inkscape:window-x="0"
-     inkscape:window-y="1"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -65,75 +65,6 @@
      id="layer1"
      transform="translate(0,-161.53332)">
     <rect
-       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.76091313;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       id="rect5208"
-       width="2.0168238"
-       height="16.933332"
-       x="15.875"
-       y="161.53333" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       id="rect5208-0"
-       width="1.0583333"
-       height="16.933332"
-       x="178.46666"
-       y="-16.933376"
-       transform="rotate(90.000015)" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       id="rect5208-2-0"
-       width="1.0583333"
-       height="16.933332"
-       x="194.34166"
-       y="-33.866714"
-       transform="rotate(90.000015)" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999982;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       id="rect5208-2-5"
-       width="2.1166675"
-       height="2.1166649"
-       x="49.741665"
-       y="177.40833" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.82842708;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       id="rect5208-2-0-7"
-       width="1.0583333"
-       height="33.866661"
-       x="194.34166"
-       y="-101.6001"
-       transform="rotate(90.00003)" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.82842708;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       id="rect5208-2-0-7-9"
-       width="1.0583333"
-       height="33.866661"
-       x="161.53329"
-       y="-101.60007"
-       transform="rotate(90.00003)" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.738626;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       id="rect5208-2-0-7-9-7"
-       width="31.749975"
-       height="1.0583442"
-       x="162.5576"
-       y="-68.791672"
-       transform="matrix(0,1,-0.99999987,-5.026492e-4,0,0)" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.738626;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       id="rect5208-2-0-7-9-7-4"
-       width="31.749975"
-       height="1.0583444"
-       x="162.54059"
-       y="-101.60001"
-       transform="matrix(0,1,-0.99999987,-5.0265012e-4,0,0)" />
-    <rect
-       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-       id="rect5318"
-       width="33.866665"
-       height="33.866665"
-       x="101.6"
-       y="161.53333" />
-    <rect
        style="opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect5320"
        width="16.933332"
@@ -159,13 +90,19 @@
        id="path5328"
        cx="59.266666"
        cy="288.53333"
-       r="6.3499999" />
+       r="6.3499999"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\circle.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <circle
        style="opacity:1;vector-effect:none;fill:#85caff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="path5330"
        cx="59.266666"
        cy="288.53333"
-       r="5.2916665" />
+       r="5.2916665"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\circle.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="opacity:1;vector-effect:none;fill:#ff2525;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect5366"
@@ -210,113 +147,382 @@
        height="10.583307"
        x="92.074997"
        y="283.24167" />
-    <circle
-       style="fill:#eab629;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       id="path905"
-       cx="127"
-       cy="288.53333"
-       r="6.3499999" />
     <path
-       style="fill:#ea3b29;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 126.29443,292.76665 h 1.41113 v -5.64444 h 1.4111 l -2.11667,-2.82222 -2.11666,2.82222 h 1.4111 z"
-       id="path909"
-       inkscape:connector-curvature="0" />
-    <rect
-       style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect911"
-       width="16.933332"
-       height="16.933332"
-       x="118.53333"
-       y="280.06665"
-       inkscape:export-filename="/Users/jackharrhy/GithubGameJam/muck123/src/art/player.png"
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.55905533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 60 60 L 60 132 L 132 132 L 132 60 L 60 60 z M 64 64 L 128 64 L 128 128 L 64 128 L 64 64 z "
+       transform="matrix(0.26458333,0,0,0.26458333,0,161.53332)"
+       id="rect5429" />
+    <path
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.55905533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 192 0 L 192 192 L 384 192 L 384 0 L 192 0 z M 196 4 L 380 4 L 380 188 L 196 188 L 196 4 z "
+       transform="matrix(0.26458333,0,0,0.26458333,0,161.53332)"
+       id="rect5439"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\rect5439.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <rect
-       style="fill:#ffffff;fill-opacity:0.23232323;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect913"
-       width="12.7"
-       height="8.4666662"
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect5446"
+       width="2.1166666"
+       height="2.1166666"
+       x="117.475"
+       y="177.40833" />
+    <path
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 16.933333,212.33332 v 16.93333 h 50.799999 v -16.93333 z m 1.058333,1.05833 h 48.683333 v 14.81667 H 17.991666 Z"
+       id="rect5463"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 0,212.33332 v 50.8 h 16.933333 v -50.8 z m 1.0583333,1.05833 H 15.875 v 48.68334 H 1.0583333 Z"
+       id="rect5471"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect5476"
+       width="1.0583333"
+       height="1.0583333"
+       x="117.475"
+       y="195.39999" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect5485"
+       width="1.0583333"
+       height="1.0583333"
+       x="117.475"
+       y="211.27499" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect5493"
+       width="1.0583333"
+       height="1.0583333"
+       x="118.53333"
+       y="195.39999" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect5495"
+       width="1.0583333"
+       height="1.0583333"
+       x="118.53333"
+       y="211.27499" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.41421938;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect5503"
+       width="1.0583333"
+       height="1.0583419"
+       x="118.53333"
+       y="212.33331" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.41420913;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect5505"
+       width="1.0583333"
+       height="1.0583266"
+       x="134.40833"
+       y="212.33333" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.41421938;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect5503-8"
+       width="1.0583333"
+       height="1.0583419"
+       x="101.6"
+       y="228.20833" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.41420913;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect5505-9"
+       width="1.0583333"
+       height="1.0583266"
+       x="117.47498"
+       y="228.20834" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#bebebe;fill-opacity:1;stroke:#141414;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect6689"
+       width="12.699999"
+       height="10.583342"
        x="2.1166666"
-       y="267.36664" />
+       y="266.30832"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 4.233333,269.48332 h 3.175"
-       id="path915"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 3.1749999,268.42499 H 8.4666655"
+       id="path6691"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 12.699999,269.48332 H 10.583333"
-       id="path917"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 9.5249987,268.42499 H 11.641664"
+       id="path6693"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 9.5249996,269.48332 H 8.4666663"
-       id="path919"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 12.699998,268.42499 h 1.058334"
+       id="path6695"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 6.3499997,270.54165 H 9.5249996"
-       id="path921"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 13.758332,269.21874 H 11.641664"
+       id="path6697"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 10.583333,270.54165 h 1.058333"
-       id="path923"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 10.583333,269.21874 H 9.5249987"
+       id="path6699"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 4.233333,270.54165 H 5.2916663"
-       id="path925"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 8.4666655,269.21874 H 7.4083323"
+       id="path6701"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 12.699999,271.59999 H 9.5249996"
-       id="path927"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 6.3499992,269.21874 H 3.1749999"
+       id="path6703"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 8.4666663,271.59999 H 6.3499997"
-       id="path929"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 3.1749999,270.01249 H 4.2333327"
+       id="path6705"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 4.233333,271.59999 H 5.2916663"
-       id="path931"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 5.2916659,270.01249 H 7.4083323"
+       id="path6707"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 4.233333,272.65832 h 3.175"
-       id="path933"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 8.4666655,270.01249 H 9.5249987"
+       id="path6709"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 8.4666663,272.65832 H 9.5249996"
-       id="path935"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 10.583333,270.01249 h 3.174999"
+       id="path6711"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 10.583333,272.65832 h 2.116666"
-       id="path937"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 11.641664,270.80624 h 2.116668"
+       id="path6713"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 12.699999,273.71665 H 11.641666"
-       id="path939"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 10.583333,270.80624 H 8.4666655"
+       id="path6715"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 10.583333,273.71665 H 9.5249996"
-       id="path941"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 7.4083323,270.80624 H 6.3499992"
+       id="path6717"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 8.4666663,273.71665 H 6.3499997"
-       id="path945"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 5.2916659,270.80624 H 3.1749999"
+       id="path6719"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 5.2916663,273.71665 H 4.233333"
-       id="path947"
-       inkscape:connector-curvature="0" />
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 3.1749999,271.59999 H 4.2333327"
+       id="path6721"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 5.2916659,271.59999 H 8.4666655"
+       id="path6723"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 9.5249987,271.59999 H 10.583333"
+       id="path6725"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 11.641664,271.59999 h 2.116668"
+       id="path6727"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 13.758332,272.39374 H 12.699998"
+       id="path6729"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 11.641664,272.39374 H 10.583333"
+       id="path6731"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 9.5249987,272.39374 H 7.4083323"
+       id="path6733"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 6.3499992,272.39374 H 3.1749999"
+       id="path6735"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 3.1749999,273.18748 H 4.2333327"
+       id="path6737"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 5.2916659,273.18748 H 8.4666655"
+       id="path6739"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 9.5249987,273.18748 H 10.583333"
+       id="path6741"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 11.641664,273.18748 h 2.116668"
+       id="path6743"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 13.758332,273.98124 H 12.699998"
+       id="path6745"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 11.641664,273.98124 H 10.583333"
+       id="path6747"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 9.5249987,273.98124 H 8.4666655"
+       id="path6749"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 7.4083323,273.98124 H 5.2916659"
+       id="path6751"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 4.2333327,273.98124 H 3.1749999"
+       id="path6753"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 3.1749999,274.77499 h 2.116666"
+       id="path6755"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 6.3499992,274.77499 H 8.4666655"
+       id="path6757"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17320505;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 9.5249987,274.77499 H 13.758332"
+       id="path6759"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="E:\Projects\Programming\game-off-2018\src\art\sign.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
 </svg>
