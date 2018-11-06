@@ -1,7 +1,15 @@
 local draw = require "utils/draw"
+local key = require "utils/key"
 local entity = require "utils/entity"
 
-local player = {}
+local player = {
+    checker = {
+        properties = {
+            collide = false
+        },
+        mody = 0, modx = 0
+    }
+}
 
 function player:init(tiledPlayer)
     self.name = tiledPlayer.name
@@ -9,6 +17,17 @@ function player:init(tiledPlayer)
     self.y = tiledPlayer.y
     self.scale = 0.5
     entity.new(self)
+
+    local checker = self.checker
+    checker.x = self.x
+    checker.y = self.y
+    checker.w = self.w
+    checker.h = self.h
+    world:add(checker, checker.x, checker.y, checker.w, checker.h)
+end
+
+function player.checker:draw()
+    draw.debugsquare(self)
 end
 
 function player:update(dt)
@@ -19,27 +38,44 @@ function player:update(dt)
 
     local targetX, targetY = self.x, self.y
 
-    if love.keyboard.isDown("w") or love.keyboard.isDown("up") then
-        self.direction = "up"
+    local w, a, s, d = key.getWASD()
+
+    if w then
+        if not d and self.checker.modx > 0 then self.checker.modx = 0 end
+        if not a and self.checker.modx < 0 then self.checker.modx = 0 end
+
+        self.checker.mody = -self.h
         targetY = targetY - speed * dt
     end
 
-    if love.keyboard.isDown("s") or love.keyboard.isDown("down") then
-        self.direction = "down"
+    if s then
+        if not d and self.checker.modx > 0 then self.checker.modx = 0 end
+        if not a and self.checker.modx < 0 then self.checker.modx = 0 end
+
+        self.checker.mody = self.h
         targetY = targetY + speed * dt
     end
 
-    if love.keyboard.isDown("a") or love.keyboard.isDown("left") then
-        self.direction = "left"
+    if a then
+        if not w and self.checker.mody < 0 then self.checker.mody = 0 end
+        if not s and self.checker.mody > 0 then self.checker.mody = 0 end
+
+        self.checker.modx = -self.w
         targetX = targetX - speed * dt
     end
 
-    if love.keyboard.isDown("d") or love.keyboard.isDown("right") then
-        self.direction = "right"
+    if d then
+        if not w and self.checker.mody < 0 then self.checker.mody = 0 end
+        if not s and self.checker.mody > 0 then self.checker.mody = 0 end
+
+        self.checker.modx = self.w
         targetX = targetX + speed * dt
     end
 
     self.x, self.y = world:move(player, targetX, targetY, self.bumpFilter)
+
+    self.checker.x = self.x + self.checker.modx
+    self.checker.y = self.y + self.checker.mody
 end
 
 function player:bumpFilter(item, other)
@@ -51,8 +87,7 @@ end
 
 function player:keypressed(k)
     if k == "space" then
-        if isDebugging then
-        end
+        if isDebugging then end
     end
 end
 
