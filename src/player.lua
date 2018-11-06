@@ -11,11 +11,6 @@ local player = {
     }
 }
 
-function player:draw()
-    entity.draw(self)
-    if isDebugging then draw.debugsquare(self.checker) end
-end
-
 function player:init(tiledPlayer)
     self.name = tiledPlayer.name
     self.x = tiledPlayer.x
@@ -76,8 +71,8 @@ function player:update(dt)
 
     self.x, self.y = world:move(player, targetX, targetY, self.bumpFilter)
 
-    checker.x = self.x + checker.modx
-    checker.y = self.y + checker.mody
+    checker.x = self.x + checker.modx * 1.2
+    checker.y = self.y + checker.mody * 1.2
 end
 
 function player:bumpFilter(item, other)
@@ -87,9 +82,22 @@ function player:bumpFilter(item, other)
     return "slide"
 end
 
+function player:draw()
+    entity.draw(self)
+    if isDebugging then draw.debugsquare(self.checker) end
+end
+
 function player:keypressed(k)
     if k == "space" then
-        if isDebugging then end
+        if isDebugging then print("checking...") end
+
+        local checker = self.checker
+        local items, len = world:queryRect(checker.x,checker.y,checker.w,checker.h)
+
+        for _, item in ipairs(items) do
+            if isDebugging then print("interaction with:", item.name) end
+            if item.interact ~= nil then item:interact() end
+        end
     end
 end
 

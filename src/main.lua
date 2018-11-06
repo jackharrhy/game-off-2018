@@ -4,7 +4,7 @@ local entities = require "entities"
 local bump = require "modules/bump"
 local bump_debug = require "modules/bump_debug"
 
-isDebugging = true
+isDebugging = false
 
 function love.load()
     map = sti("tiled/test2.lua")
