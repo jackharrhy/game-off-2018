@@ -20,6 +20,9 @@ function love.load()
     entityLayer.update = entities.update
 
     love.graphics.setBackgroundColor(1,1,1)
+
+    map:removeLayer("rooms")
+    map:removeLayer("entities")
 end
 
 function love.update(dt)
@@ -27,12 +30,16 @@ function love.update(dt)
 end
 
 function love.draw()
+    -- Reset to white so map draws correctly
+    love.graphics.setLineWidth(1)
+    love.graphics.setColor(1,1,1)
+
     local width = love.graphics.getWidth()
-    local halfwidth = width / 2
     local height = love.graphics.getHeight()
+    local halfwidth = width / 2
+    local border = 32
 
-    border = 32
-
+    -- Figure out which area of the map to render based on player location
     local player = entities.player
     local tx = math.floor(player.x / (halfwidth - border/2)) * (halfwidth - border/2)
     local ty = math.floor(player.y / height) * height
@@ -45,13 +52,16 @@ function love.draw()
         bump_debug.draw(world)
     end
 
-    -- Game 2 Black Backdrop
+    -- Puzzle backdrop
     love.graphics.setColor(0,0,0)
     love.graphics.rectangle("fill", halfwidth, 0, halfwidth, height)
 
-    -- Border
+    -- Border between internal windows
     love.graphics.setColor(0.1,0.1,0.1)
     love.graphics.rectangle("fill", halfwidth - border/2, 0, border, height)
+end
 
-    love.graphics.setColor(1,1,1)
+function love.keypressed(k)
+    if k == 'escape' then love.event.quit() end
+    entities:keypressed(k)
 end

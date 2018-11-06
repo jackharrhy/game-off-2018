@@ -1,55 +1,103 @@
-require "utils/entity"
+local draw = require "utils/draw"
+local key = require "utils/key"
+local entity = require "utils/entity"
 
 local player = {
-    spriteFile = "art/player.png"
+    checker = {
+        properties = {
+            collide = false
+        },
+        mody = 0, modx = 0
+    }
 }
 
 function player:init(tiledPlayer)
+    self.name = tiledPlayer.name
     self.x = tiledPlayer.x
     self.y = tiledPlayer.y
-    self.sprite = love.graphics.newImage(self.spriteFile)
-    self.w = player.sprite:getWidth() / 2
-    self.h = player.sprite:getWidth() / 2
-    self.ox = self.w - self.w / 2
-    self.oy = self.h - self.w / 2
-    world:add(self, self.x, self.y, self.w, self.h)
+    self.scale = 0.5
+    entity.new(self)
+
+    local checker = self.checker
+    checker.x = self.x
+    checker.y = self.y
+    checker.w = self.w
+    checker.h = self.h
+    world:add(checker, checker.x, checker.y, checker.w, checker.h)
 end
 
 function player:update(dt)
     local speed = 130
     if love.keyboard.isDown("lshift") then
-        speed = speed * 1.5
+        speed = speed * 1.35
     end
 
     local targetX, targetY = self.x, self.y
+    local checker = self.checker
 
-    if love.keyboard.isDown("w") or love.keyboard.isDown("up") then
+    local w, a, s, d = key.getWASD()
+
+    if w then
+        if not d and checker.modx > 0 then checker.modx = 0 end
+        if not a and checker.modx < 0 then checker.modx = 0 end
+
+        checker.mody = -self.h
         targetY = targetY - speed * dt
     end
 
-    if love.keyboard.isDown("s") or love.keyboard.isDown("down") then
+    if s then
+        if not d and checker.modx > 0 then checker.modx = 0 end
+        if not a and checker.modx < 0 then checker.modx = 0 end
+
+        checker.mody = self.h
         targetY = targetY + speed * dt
     end
 
-    if love.keyboard.isDown("a") or love.keyboard.isDown("left") then
+    if a then
+        if not w and checker.mody < 0 then checker.mody = 0 end
+        if not s and checker.mody > 0 then checker.mody = 0 end
+
+        checker.modx = -self.w
         targetX = targetX - speed * dt
     end
 
-    if love.keyboard.isDown("d") or love.keyboard.isDown("right") then
+    if d then
+        if not w and checker.mody < 0 then checker.mody = 0 end
+        if not s and checker.mody > 0 then checker.mody = 0 end
+
+        checker.modx = self.w
         targetX = targetX + speed * dt
     end
 
-    self.x, self.y = world:move(player, targetX, targetY)
+    self.x, self.y = world:move(player, targetX, targetY, self.bumpFilter)
+
+    checker.x = self.x + checker.modx * 1.2
+    checker.y = self.y + checker.mody * 1.2
+end
+
+function player:bumpFilter(item, other)
+    if item.properties.collide == false then
+        return "cross"
+    end
+    return "slide"
 end
 
 function player:draw()
-    entity.draw(player)
+    entity.draw(self)
+    if isDebugging then draw.debugsquare(self.checker) end
+end
 
-    if isDebugging then
-        love.graphics.setColor(0,0,0)
-        love.graphics.setPointSize(5)
-        love.graphics.points(math.floor(self.x), math.floor(self.y))
-        love.graphics.setColor(1,1,1)
+function player:keypressed(k)
+    if k == "space" then
+        if isDebugging then print("checking...") end
+
+        local checker = self.checker
+        local items, len = world:queryRect(checker.x,checker.y,checker.w,checker.h)
+
+        for _, item in ipairs(items) do
+            if isDebugging then print("interaction with:", item.name) end
+            if item.interact ~= nil then item:interact() end
+        end
     end
 end
 
