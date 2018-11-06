@@ -29,7 +29,6 @@ end
 
 function entities:draw()
     entities.player:draw()
-    entities.player.checker:draw() -- TODO WIP WIP WIP WIP YEET
 
     for _, ent in ipairs(entities.array) do
         ent:draw()

@@ -31,7 +31,9 @@ function entity:new()
 
     if self.color == nil then self.color = { r = 1, g = 1, b = 1 } end
 
-    self.draw = entity.draw
+    if self.draw == nil then
+        self.draw = entity.draw
+    end
 end
 
 function entity:draw()

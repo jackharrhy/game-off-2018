@@ -11,6 +11,11 @@ local player = {
     }
 }
 
+function player:draw()
+    entity.draw(self)
+    if isDebugging then draw.debugsquare(self.checker) end
+end
+
 function player:init(tiledPlayer)
     self.name = tiledPlayer.name
     self.x = tiledPlayer.x
@@ -26,10 +31,6 @@ function player:init(tiledPlayer)
     world:add(checker, checker.x, checker.y, checker.w, checker.h)
 end
 
-function player.checker:draw()
-    draw.debugsquare(self)
-end
-
 function player:update(dt)
     local speed = 130
     if love.keyboard.isDown("lshift") then
@@ -37,45 +38,46 @@ function player:update(dt)
     end
 
     local targetX, targetY = self.x, self.y
+    local checker = self.checker
 
     local w, a, s, d = key.getWASD()
 
     if w then
-        if not d and self.checker.modx > 0 then self.checker.modx = 0 end
-        if not a and self.checker.modx < 0 then self.checker.modx = 0 end
+        if not d and checker.modx > 0 then checker.modx = 0 end
+        if not a and checker.modx < 0 then checker.modx = 0 end
 
-        self.checker.mody = -self.h
+        checker.mody = -self.h
         targetY = targetY - speed * dt
     end
 
     if s then
-        if not d and self.checker.modx > 0 then self.checker.modx = 0 end
-        if not a and self.checker.modx < 0 then self.checker.modx = 0 end
+        if not d and checker.modx > 0 then checker.modx = 0 end
+        if not a and checker.modx < 0 then checker.modx = 0 end
 
-        self.checker.mody = self.h
+        checker.mody = self.h
         targetY = targetY + speed * dt
     end
 
     if a then
-        if not w and self.checker.mody < 0 then self.checker.mody = 0 end
-        if not s and self.checker.mody > 0 then self.checker.mody = 0 end
+        if not w and checker.mody < 0 then checker.mody = 0 end
+        if not s and checker.mody > 0 then checker.mody = 0 end
 
-        self.checker.modx = -self.w
+        checker.modx = -self.w
         targetX = targetX - speed * dt
     end
 
     if d then
-        if not w and self.checker.mody < 0 then self.checker.mody = 0 end
-        if not s and self.checker.mody > 0 then self.checker.mody = 0 end
+        if not w and checker.mody < 0 then checker.mody = 0 end
+        if not s and checker.mody > 0 then checker.mody = 0 end
 
-        self.checker.modx = self.w
+        checker.modx = self.w
         targetX = targetX + speed * dt
     end
 
     self.x, self.y = world:move(player, targetX, targetY, self.bumpFilter)
 
-    self.checker.x = self.x + self.checker.modx
-    self.checker.y = self.y + self.checker.mody
+    checker.x = self.x + checker.modx
+    checker.y = self.y + checker.mody
 end
 
 function player:bumpFilter(item, other)
