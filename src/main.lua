@@ -1,3 +1,5 @@
+flux = require "modules/flux"
+
 local sti = require "modules/sti"
 local bump_sti = require "modules/sti/plugins/bump"
 local entities = require "entities"
@@ -27,6 +29,7 @@ end
 
 function love.update(dt)
     map:update(dt)
+    flux.update(dt)
 end
 
 function love.draw()

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="64" tileheight="64" infinite="0" backgroundcolor="#00ffffff" nextobjectid="51">
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="64" tileheight="64" infinite="0" backgroundcolor="#00ffffff" nextobjectid="56">
  <tileset firstgid="1" source="test2_tileset.tsx"/>
  <layer name="main" width="50" height="50">
   <data encoding="csv">
@@ -8,9 +8,9 @@
 9,10,10,10,10,20,22,10,10,10,11,0,14,10,10,10,10,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 14,10,10,10,10,10,10,10,10,10,12,0,9,10,10,10,10,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 14,10,10,10,10,10,10,10,10,10,12,0,14,10,10,10,10,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-14,10,10,10,10,4,6,10,10,10,12,0,14,10,10,10,10,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-14,10,10,10,10,11,14,10,10,10,12,0,14,10,10,10,10,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-17,5,18,18,5,16,14,10,10,10,12,0,14,10,10,10,10,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+14,10,10,10,10,4,6,10,10,0,12,0,14,10,10,10,10,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+14,10,10,10,10,11,23,28,10,26,24,0,14,10,10,10,10,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+17,5,18,18,5,16,9,10,10,10,12,0,14,10,10,10,10,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,9,10,10,10,11,0,15,6,10,10,4,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 7,2,21,21,2,3,9,10,10,10,12,0,0,9,10,10,12,0,7,2,2,2,2,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 14,10,10,10,10,20,22,10,10,10,20,21,21,22,10,10,20,2,22,10,10,10,10,20,21,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -63,7 +63,7 @@
 57,0,0,0,0,0,0,0,0,0,57,0,57,0,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 57,0,0,0,0,0,0,0,0,0,57,0,57,0,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 57,0,0,0,0,57,57,0,0,0,57,0,57,0,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-57,0,0,0,0,57,57,0,0,0,57,0,57,0,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+57,0,0,0,0,57,57,57,0,57,57,0,57,0,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 57,57,57,57,57,57,57,0,0,0,57,0,57,0,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,57,0,0,0,57,0,57,57,0,0,57,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 57,57,57,57,57,57,57,0,0,0,57,0,0,57,0,0,57,0,57,57,57,57,57,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -113,35 +113,30 @@
   <object id="7" name="player" x="192" y="256">
    <point/>
   </object>
-  <object id="8" name="test_circle" x="192" y="128">
-   <properties>
-    <property name="collide" type="bool" value="true"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="9" name="test_circle" x="256" y="128">
-   <properties>
-    <property name="collide" type="bool" value="true"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="10" name="test_circle" x="128" y="128">
-   <properties>
-    <property name="collide" type="bool" value="true"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="47" name="sign" x="544" y="36">
-   <properties>
-    <property name="collide" type="bool" value="false"/>
-    <property name="text" value="I am a sign on the wall"/>
-   </properties>
-   <point/>
-  </object>
   <object id="50" name="sign" x="192" y="36">
    <properties>
     <property name="collide" type="bool" value="false"/>
     <property name="text" value="Welcome to the game!"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="51" name="lever" x="544" y="32">
+   <properties>
+    <property name="collide" type="bool" value="false"/>
+    <property name="spriteFile" value="art/lever_up.png"/>
+    <property name="triggerType" value="door"/>
+    <property name="triggers" value="test_door_1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="52" name="door" x="544" y="416">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+    <property name="delay" type="float" value="3"/>
+    <property name="id" value="test_door_1"/>
+    <property name="spriteFile" value="art/test_door.png"/>
+    <property name="translateX" type="float" value="-64"/>
+    <property name="translateY" type="float" value="0"/>
    </properties>
    <point/>
   </object>
