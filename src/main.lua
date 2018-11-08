@@ -9,7 +9,7 @@ local bump_debug = require "modules/bump_debug"
 isDebugging = false
 
 function love.load()
-    map = sti("tiled/test2.lua")
+    map = sti("tiled/test3.lua")
 
     world = bump.newWorld(64)
 
@@ -25,6 +25,10 @@ function love.load()
 
     map:removeLayer("rooms")
     map:removeLayer("entities")
+
+    map.backgroundcolor[1] = map.backgroundcolor[1] / 255
+    map.backgroundcolor[2] = map.backgroundcolor[2] / 255
+    map.backgroundcolor[3] = map.backgroundcolor[3] / 255
 end
 
 function love.update(dt)
@@ -41,6 +45,10 @@ function love.draw()
     local height = love.graphics.getHeight()
     local halfwidth = width / 2
     local border = 32
+
+    love.graphics.setColor(map.backgroundcolor[1],map.backgroundcolor[2],map.backgroundcolor[3])
+    love.graphics.rectangle("fill", 0, 0, width, height)
+    love.graphics.setColor(1,1,1)
 
     -- Figure out which area of the map to render based on player location
     local player = entities.player

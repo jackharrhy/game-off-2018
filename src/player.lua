@@ -15,7 +15,7 @@ function player:init(tiledPlayer)
     self.name = tiledPlayer.name
     self.x = tiledPlayer.x
     self.y = tiledPlayer.y
-    self.scale = 0.5
+    --self.scale = 0
     entity.new(self)
 
     local checker = self.checker

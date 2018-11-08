@@ -25,12 +25,12 @@ function entity:new()
     if not self.w then self.w = self.sprite:getWidth() end
     if not self.h then self.h = self.sprite:getHeight() end
 
-    if self.scale then
+    --[[if self.scale then
         self.ox = self.w / (self.scale * 8)
         self.oy = self.h / (self.scale * 8)
         self.w = self.w / (self.scale * 4)
         self.h = self.h / (self.scale * 4)
-    end
+    end]]--
 
     self.x = self.x - self.w / 2
     self.y = self.y - self.h / 2
